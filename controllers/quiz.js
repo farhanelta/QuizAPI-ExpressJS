@@ -6,7 +6,7 @@ exports.create = async (req, res) => {
         const data = await Quiz.create(req.body)
 
         res.json({
-            message: "quiz created successfully",
+            message: "Quiz created successfully",
             data: data
         })
     } catch (error) {
